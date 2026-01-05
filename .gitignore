@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Challenge output files
+output.svg
+output.wav
+output.mp4
+output_with_music.mp4
+flag.txt
+key_sequence.txt
+morse_sequence.txt
+
+# Challenge-specific output files (may contain flags)
+# These should be generated fresh for each CTF event
+01-all-white-qr/whiterabbit.svg
+02-rgb-ascii/kungfu.svg
+03-dtmf/morpheusmessage.wav
+04-morse/matrixrain.mp4
+
+# Solution files (organizer-only, should not be distributed to participants)
+# Uncomment if you want to track solutions in a separate private repo
+# SOLUTION.md
+
+# OS
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak

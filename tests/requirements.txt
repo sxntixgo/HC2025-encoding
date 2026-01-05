@@ -1,0 +1,5 @@
+qrcode[pil]>=7.4.2
+pillow>=10.4.0
+pytest>=7.4.0
+numpy>=1.21.0
+scipy>=1.7.0

@@ -1,0 +1,24 @@
+# Encoding Challenges - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core dependencies (required for all challenges)
+numpy>=1.21.0
+pillow>=10.4.0
+
+# Challenge 01: All White QR
+qrcode[pil]>=7.4.2
+pyzbar>=0.1.9          # Also requires system zbar library:
+                        #   macOS: brew install zbar
+                        #   Linux: apt-get install libzbar0
+
+# Challenge 02: RGB ASCII
+# (uses pillow - already listed above)
+
+# Challenge 03: DTMF
+scipy>=1.7.0
+
+# Challenge 04: Morse Video
+opencv-python>=4.5.0
+
+# Testing
+pytest>=7.4.0
